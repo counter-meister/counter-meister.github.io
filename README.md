@@ -8,7 +8,7 @@ So if I "play compiler", That native HTMLElement can be optimized...
 
 
 | |minified|gzip|
-|---|---|---|---|
+|---|---|---|
 |original|954 B|474 B|
 |refactored|576 B|355 B|
 |savings|**39.6%**|**25.1%**|
@@ -189,7 +189,7 @@ customElements.define("my-counter", class extends HTMLElement {
 # Savings
 
 | |minified|gzip|
-|---|---|---|---|
+|---|---|---|
 |original|954 B|474 B|
 |refactored|576 B|355 B|
 |savings|**39.6%**|**25.1%**|

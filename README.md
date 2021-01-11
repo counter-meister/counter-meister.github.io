@@ -1,4 +1,8 @@
-# counter-meister.github.io
+# Counter Meiser Web-Component
+
+running code at: https://counter-meister.github.io/
+
+## 51 + 1  ways to make a Web Component
 
 The WebComponentsDev site blogs about [51 ways to make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
 
@@ -9,8 +13,8 @@ So if I "play compiler", That native HTMLElement can be optimized...
 
 | |minified|gzip|
 |---|---|---|
-|original|954 B|474 B|
-|refactored|576 B|355 B|
+|original by WebComponents DEV|954 B|474 B|
+|refactored by Danny Engelman|576 B|355 B|
 |savings|**39.6%**|**25.1%**|
 
 <br>
@@ -190,6 +194,6 @@ customElements.define("my-counter", class extends HTMLElement {
 
 | |minified|gzip|
 |---|---|---|
-|original|954 B|474 B|
-|refactored|576 B|355 B|
+|original by WebComponents DEV|954 B|474 B|
+|refactored by Danny Engelman|576 B|355 B|
 |savings|**39.6%**|**25.1%**|

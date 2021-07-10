@@ -6,15 +6,20 @@ running code at: https://counter-meister.github.io/
 
 The WebComponentsDev site blogs about [51 ways to make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
 
-I am totally against comparison with Svelte, because the Svelte compiler optimizes code
+Native code ranks first in the [Performance Ranking](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/#performance)
 
-So if I "play compiler", That native HTMLElement can be optimized...
+![](https://i.imgur.com/As1HzLt.png)
+
+But... I am totally against comparison with Svelte, because the Svelte compiler optimizes code
+
+So if I _"play compiler"_, That native HTMLElement can/may be optimized (as do all other 49 versions)
 
 
 | |minified|gzip|
 |---|---|---|
-|original by WebComponents DEV|954 B|474 B|
-|refactored by Danny Engelman|576 B|355 B|
+|original by WebComponents DEV|&nbsp;954 B|&nbsp;474 B|
+|Svelte|4024 B|1884 B
+|refactored by Danny Engelman|&nbsp;576 B|&nbsp;355 B|
 |savings|**39.6%**|**25.1%**|
 
 <br>

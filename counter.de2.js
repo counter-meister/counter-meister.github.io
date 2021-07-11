@@ -4,11 +4,11 @@ customElements.define("my-counter", class extends HTMLElement {
         .attachShadow({ mode: "open" })
         .innerHTML =
         "<style>" +
-        "p{font-size:200%;width:4rem;display:inline-block;text-align:center}" +
+        "span{font-size:200%;width:4rem;display:inline-block;text-align:center}" +
         "button{font-size:200%;width:4rem;height:4rem;border:none;border-radius:10px;background-color:seagreen;color:white}" +
         "</style>" +
         "<button onclick=this.getRootNode().host.dec()>-</button>" +
-        "<p>0</p>" +
+        "<span>0</span>" +
         "<button onclick=this.getRootNode().host.inc()>+</button>";
       this.count = 0;
     }
@@ -19,7 +19,7 @@ customElements.define("my-counter", class extends HTMLElement {
       this.update(--this.count);
     }
     update(count) {
-      this.shadowRoot.querySelector("p").innerHTML = count;
+      this.shadowRoot.querySelector("span").innerHTML = count;
     }
   }
 );

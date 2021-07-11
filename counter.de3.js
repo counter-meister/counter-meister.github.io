@@ -7,7 +7,7 @@ customElements.define(
       }).innerHTML =
         "<style>" +
         "p{font-size:200%;width:4rem;display:inline-block;text-align:center}" +
-        "button{font-size:200%;width:4rem;height:4rem;border:none;border-radius:10px;background:#2e8b57;color:#fff}" +
+        "button{font-size:200%;width:4rem;height:4rem;border:none;border-radius:10px;background:seagreen;color:white}" +
         "</style>" +
         "<button onclick=this.getRootNode().host.count-->-</button><p>0</p><button onclick=this.getRootNode().host.count++>+</button>";
     }

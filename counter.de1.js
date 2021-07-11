@@ -4,9 +4,8 @@ customElements.define("my-counter", class extends HTMLElement {
         .attachShadow({ mode: "open" })
         .innerHTML =
         "<style>" +
-        "*{font-size:200%}" +
-        "span{width:4rem;display:inline-block;text-align:center}" +
-        "button{width:4rem;height:4rem;border:none;border-radius:10px;background-color:seagreen;color:white}" +
+        "span{font-size:200%;width:4rem;display:inline-block;text-align:center}" +
+        "button{font-size:200%;width:4rem;height:4rem;border:none;border-radius:10px;background-color:seagreen;color:white}" +
         "</style>" +
         "<button onclick=this.getRootNode().host.dec()>-</button>" +
         "<span>0</span>" +
